@@ -68,17 +68,7 @@ class dry_wet_spells:
             result.append((sdate,edate))
         for j in result:
             print(str(j[0])+"   to   "+str(j[1]))
-
-    def identify_dryspells_with_only_sql(self):
-        db_conn_obj=psycopg2.connect(dbname=self.database_n,
-                                        host=self.hostname,
-                                        port=self.port,
-                                        )
-        with db_conn_obj.cursor() as curs:
-            curs.execute("select date,sum(rain_mm) from hourly_rainfall_data group by date;")
-            all_tuples=curs.fetchall()
-        db_conn_obj.close()
-
+            
     def identify_wetspells(self):
         db_conn_obj=psycopg2.connect(dbname=self.database_n,
                                         host=self.hostname,
