@@ -10,8 +10,16 @@ date,rain_mm,runoff+excess,crop uptake,Soil Moisture(SM),Percolation to Ground W
 2022-07-29,1.5,0.30000000000000004,4,5.068799999999999,1.2671999999999999
 2022-07-30,0.0,0.0,4,0.8550399999999989,0.21375999999999973
 
-These are 2 ouputs rows taken at random dates , for the same dates ..
+Above are 2 ouputs rows taken at random dates , for the same dates ..
 1)On 29th deeper soil has 5.068mm of soil moisture in it while shallow soil has 1.043mm in it , this shows deeper soil can hold more water 
   So crop sown on this field have supply of water.
   
 2)If same crop is sown in both fields deeper soil can supply (for uptake) to the crop for more no.of days than shallow.
+
+3)Because of the deeper soil's high capacity relatively more water is being percolated into ground water than shallow soil.
+
+4)Much water will not be lost in the form of 'excess' in deeper soil.
+
+5)Crops which require less uptake are preferred to be sown in shallow soil , while crops with high uptake are preferred to be sown in deeper soil.
+
+These are the findings from the available fields in the output table.
