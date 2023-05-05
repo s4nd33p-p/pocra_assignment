@@ -14,4 +14,4 @@ These are 2 ouputs rows taken at random dates , for the same dates ..
 1)On 29th deeper soil has 5.068mm of soil moisture in it while shallow soil has 1.043mm in it , this shows deeper soil can hold more water 
   So crop sown on this field have supply of water.
   
-2)If same crop is sown in both fields deeper soil can supply uptake to the crop for more no.of days than shallow.
+2)If same crop is sown in both fields deeper soil can supply (for uptake) to the crop for more no.of days than shallow.
